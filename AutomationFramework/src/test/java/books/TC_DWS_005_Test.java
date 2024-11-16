@@ -20,6 +20,7 @@ import objectrepository.HomePage;
 public class TC_DWS_005_Test extends BaseClass {     
 	@Test
 	 public void clickOnBooks() throws EncryptedDocumentException, IOException {
+		 //class is modified in Github
 		//test=extReport.createTest("clickOnBooks"); //4th step of extent report //done in listenerUtility
 		hp=new HomePage(driver); //object creation for homepage
 		hp.getBooksLink().click(); //books linked clic
