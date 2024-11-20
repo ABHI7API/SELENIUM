@@ -15,7 +15,7 @@ import objectrepository.HomePage;
 
 @Listeners(ListenerUtility.class)
 
-public class Computer extends BaseClass { 
+public class Computer_Test extends BaseClass { 
 	@Test
 	 public void clickOnComputer() throws EncryptedDocumentException, IOException {  
 		//test=extReport.createTest("clickOnComputer"); //4th step of extent report //done in ListenerUtility
